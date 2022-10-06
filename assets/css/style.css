@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--dark);
+}
+
+:root {
+    --greeny: #92E3A9;
+    --dark: #263238;
+}
+
+span {
+    color: var(--greeny);
+}
+
+.hero {
+    margin: 10px;
+    height: 100vh;
+}
+
+.hero img {
+    height: 910px;
+    width: 930px;
+    position: absolute;
+    left: 33%;
+    bottom: 1px;
+    cursor: pointer;
+}
+
+.hero h2 {
+    font-size: 4rem;
+    pointer-events: none;
+}
+
+#hero-message {
+    position: absolute;
+    bottom: 45%;
+    left: 4%;
+}
+
+h1 {
+    font-size: 4rem;
+    pointer-events: none;
+}
+
+#logo {
+    font-size: 30px;
+    color: var(--dark);
+}
+
+nav {
+    margin-bottom: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 16px;
+    font-weight: 20px;
+    font-size: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* Hero message buttons */
+
+#btn1{
+    color: white;
+    border: 3px solid var(--dark);
+    border-radius: 40px;
+    background: var(--dark);
+    padding: 10px 20px;
+    margin-right: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#btn1:hover {
+    color: var(--dark);
+    background: transparent;
+    border-color: var(--dark);
+    transition: .6s;
+}
+
+#btn2 {
+    color: var(--greeny);
+    border: 3px solid var(--greeny);
+    border-radius: 40px;
+    background: transparent;
+    padding: 10px 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#btn2:hover {
+    color: var(--dark);
+    background: var(--greeny);
+    border-color: var(--greeny);
+    transition: .6s;
+}
+
+/* End of the button styling */
+
+/* card styles */
+.cardholder {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.card {
+    width: 28%;
+    border: transparent;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 1s;
+}
+
+.work {
+    height: 100vh;
+}
+/* end of card styling */
+
+.care {
+    background: var(--greeny);
+    display: flex;
+    justify-content: space-between;
+}
+
+.care img {
+    width: 700px;
+    height: 700px;
+}
+
+.care h2 {
+    font-size: 3.5rem;
+}
+/* color settings */
+.cp {
+    color: white;
+    font-size: 19px;
+}
+
+.dp {
+    color: var(--dark);
+    font-size: 19px;
+}
+/* end of color settings */
+
+
+.thinner {
+    width: 420px;
+    padding-left: 12px;
+}
+
+.care-card {
+    position: relative;
+    right: 9%;
+    top: 100px;
+}
+/*----------------------------------------*/
+.desk {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    height: 100vh;
+}
+
+.desk img {
+    width: 700px;
+    height: 700px;
+}
+
+.desk h2 {
+    font-size: 3.5rem;
+}
+
+.desk-card {
+    position: relative;
+    left: 9%;
+    top: 160px;
+}
+
+/*------------------------------------------*/
+
+.church {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    height: 110vh
+}
+
+.church img {
+    height: 700px;
+    width: 700px;
+}
+
+.church h2 {
+    font-size: 3.5rem;
+}
+
+.church-card {
+    position: relative;
+    right: 9%;
+    top: 160px;
+}
+
+h3 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+/*-------------------------------------------*/
+
+.birthday {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background: var(--dark);
+}
+
+.birthday img {
+    height: 700px;
+    width: 700px;
+}
+
+.birthday h2 {
+    font-size: 3.5rem;
+}
+
+.birth-card {
+    position: relative;
+    left: 9%;
+    top: 170px;
+}
+
+.btn4 {
+    color: white;
+    border: 3px solid var(--dark);
+    border-radius: 40px;
+    background: var(--dark);
+    padding: 10px 20px;
+    margin-right: 6px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn4:hover {
+    color: var(--dark);
+    background: transparent;
+    border-color: var(--dark);
+    transition: .6s;
+}
+
+.btn3 {
+    color: var(--greeny);
+    border: 3px solid var(--greeny);
+    border-radius: 40px;
+    background: transparent;
+    padding: 10px 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn3:hover {
+    color: var(--dark);
+    background: var(--greeny);
+    border-color: var(--greeny);
+    transition: .6s;
+}
+
+.but {
+    height: 50vh;
+}
+/*----------------------------------------------*/
+
+.contact {
+    margin: 30px;
+}
+
+form {
+    position: relative;
+    left: 65%;
+    top: 160px;
+}
+
+.form-control {
+    
+    width: 30%;
+    height: 50px;
+    border: 2.5px solid var(--dark);
+    border-radius: 40px;
+    background: transparent;
+    outline: none;
+    z-index: 1;
+    font-size: 14px;
+}
+
+label, small {
+    padding-left: 10px;
+}
+
+
+.help {
+    width: 300px;
+    font-size: 20px;
+}
+
+.end-text {
+    position: relative;
+    left: 8%;
+    bottom: 120px;
+}
+
+
+.end-text h2 {
+    font-size: 4rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+}
+
+i {
+    font-size: 1.8rem;
+}

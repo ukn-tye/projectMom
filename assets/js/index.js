@@ -1,0 +1,1 @@
+const mom = console.log("Happy Birthday MoM");
